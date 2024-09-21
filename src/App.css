@@ -1,0 +1,97 @@
+body{
+  background-color: #385F71;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.main-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.left_container{
+  height: 50%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.right_container{
+  background-color: #2B4162;
+  border-radius: 70px;
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input_boxes{
+  margin-top: 20px;
+  width: 80%;
+  height: 60%;
+  outline:none;
+}
+
+.btn_div{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  height: 105%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxes p {
+  color: white;
+  font-size: 16px;
+  margin: 7px 0px 7px 0px;
+}
+
+input[type=text]{
+  height: 7vh;
+  width: 22vw;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.btn{
+  background-color: #AEF6C7;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.left_container h1{
+  font-size: 64px;
+  text-align: left;
+  color : white;
+}
+
+.text_msg{
+  color: white;
+  font-family: Inter;
+  height: 20%;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  text-align: center;
+}
